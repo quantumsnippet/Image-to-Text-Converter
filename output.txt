@@ -1,0 +1,34 @@
+root@debiat
+39
+
+home/darshan# cat /etc/shadow | we -l
+
+root@debian: /home/darshan# cat /etc/shadow | head
+root: $y$j9T$23aEDTSj .NTKIDj S7wJvj0$1I3QB18E7MCmmROESTUNW/iVRL22ImopnB2VLXXMYT1: 19205
+daemon
+
+99999:7
+
+sys
+sync:*:19182:0:99999:7:
+9999:
+99999
+Lp: *:19182:0:99999:7
+mail:*:19182:0:99999
+news: +:19182:0:99999:7:
+
+root@debian: /home/darshan# cat /etc/shadow | tail
+speech-dispatcher: !:19182:0:99999:7
+pulse: *:19182:0:99999:7
+
+19182:0:99999
+darshan : $6$wRZwLPmyG5cZZUHy $bX71 j pAkneI9IUOUAUGi2hHi uXnw4vdSRPKT/k1L40g00yC5/Sd5q0x61JwdsHA j PUSbEGPQ9KhG3wBBZEQUK8/ : 19204:0:99999:7:
+systemd-timesync
+systemd-coredump
+sshd: *:19205:0:99999:7:::
+root@debian: /home/darshan# date
+Saturday @3 June 2023 04:57:13 PM IST
+root@debian: /home/darshan# hostname
+debian
+root@debian: /home/darshan# ff
+
